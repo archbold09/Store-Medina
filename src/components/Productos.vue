@@ -3,8 +3,9 @@
     <v-list-group>
     <v-list-tile slot="activator">
         <v-list-tile-content>
-            <v-list-tile-title>
-                Productos
+            <v-list-tile-title
+            class="orange--text">
+             Productos
             </v-list-tile-title>
         </v-list-tile-content>
     </v-list-tile>

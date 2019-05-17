@@ -8,23 +8,16 @@
       row
       wrap
     >
-      <v-btn
-        v-for="link in links"
-        :key="link"
-        color="white"
-        flat
-        round
-      >
-        {{ link }}
-      </v-btn>
+
       <v-flex
-        orange accent-2
+        dark
         py-3
         text-xs-center
-        white--text
+        orange--text
         xs12
       >
-        &copy;2018 — <strong>Store Medina Todos los Derechos Reservados | Erbin Santana | Diego Monroy | Angel Archbold</strong>
+        &copy;<strong>Store Medina</strong>
+
       </v-flex>
     </v-layout>
   </v-footer>
@@ -35,8 +28,6 @@ export default {
     name:'Footer',
     data: () => ({
       links: [
-        'fab fa-facebook',
-        'fab fa-twitter',
         'Nosotros',
         'Contactar'
       ]
